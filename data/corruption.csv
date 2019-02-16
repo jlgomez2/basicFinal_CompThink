@@ -1,0 +1,177 @@
+iso,Country,corruptionIndex
+AFG,Afghanistan,15
+ALB,Albania,39
+DZA,Algeria,34
+AGO,Angola,18
+ARG,Argentina,36
+ARM,Armenia,33
+AUS,Australia,79
+AUT,Austria,75
+AZE,Azerbaijan,30
+BHS,Bahamas,66
+BHR,Bahrain,43
+BGD,Bangladesh,26
+BRD,Barbados,61
+BLR,Belarus,40
+BEL,Belgium,77
+BEN,Benin,36
+BTN,Bhutan,65
+BOL,Bolivia,33
+BIH,Bosnia and Herzegovina,39
+BWA,Botswana,60
+BRA,Brazil,40
+BRN,Brunei,58
+BGR,Bulgaria,41
+BFA,Burkina Faso,42
+BDI,Burundi,20
+CIV,CÒte d_Ivoire,34
+KHM,Cambodia,21
+CMR,Cameroon,26
+CAN,Canada,82
+CPV,Cape Verde,59
+CAF,Central African Republic,20
+TCD,Chad,20
+CHL,Chile,66
+CHN,China,40
+COL,Colombia,37
+COM,Comoros,24
+CRI,Costa Rica,58
+HRV,Croatia,49
+CUB,Cuba,47
+CYP,Cyprus,55
+CZE,Czech Republic,55
+DNK,Denmark,90
+DJI,Djibouti,30
+DMA,Dominica,59
+DOM,Dominican Republic,31
+ECU,Ecuador,31
+EGY,Egypt,34
+SLV,El Salvador,36
+ERI,Eritrea,18
+EST,Estonia,70
+ETH,Ethiopia,34
+FIN,Finland,89
+FRA,France,69
+GAB,Gabon,35
+GMB,Gambia,26
+GEO,Georgia,57
+DEU,Germany,81
+GHA,Ghana,43
+GRC,Greece,44
+GRD,Grenada,56
+GTM,Guatemala,28
+GIN,Guinea,27
+GNB,Guinea-Bissau,16
+GUY,Guyana,34
+HTI,Haiti,20
+HND,Honduras,30
+HKG,Hong Kong,77
+HUN,Hungary,48
+ISL,Iceland,78
+IND,India,40
+IDN,Indonesia,37
+IRN,Iran,29
+IRQ,Iraq,17
+IRL,Ireland,73
+ISR,Israel,64
+ITA,Italy,47
+JAM,Jamaica,39
+JPN,Japan,72
+JOR,Jordan,48
+KAZ,Kazakhstan,29
+KEN,Kenya,26
+PRK,Korea (North),12
+KOR,Korea (South),53
+KOS,Kosovo,36
+KWT,Kuwait,41
+KGZ,Kyrgyzstan,28
+LAO,Laos,30
+LVA,Latvia,57
+LBN,Lebanon,28
+LSO,Lesotho,39
+LBR,Liberia,37
+LBY,Libya,14
+LTU,Lithuania,59
+LUX,Luxembourg,81
+MDG,Madagascar,26
+MWI,Malawi,31
+MYS,Malaysia,49
+MDV,Maldives,36
+MLI,Mali,32
+MLT,Malta,55
+MRT,Mauritania,27
+MUS,Mauritius,54
+MEX,Mexico,30
+MDA,Moldova,30
+MNG,Mongolia,38
+MNE,Montenegro,45
+MAR,Morocco,37
+MOZ,Mozambique,27
+MMR,Myanmar,28
+NAM,Namibia,52
+NPL,Nepal,29
+NLD,Netherlands,83
+NZL,New Zealand,90
+NIC,Nicaragua,26
+NER,Niger,35
+NGA,Nigeria,28
+NOR,Norway,85
+OMN,Oman,45
+PAK,Pakistan,32
+PAN,Panama,38
+PNG,Papua New Guinea,28
+PRY,Paraguay,30
+PER,Peru,35
+PHL,Philippines,35
+POL,Poland,62
+PRT,Portugal,62
+QAT,Qatar,61
+COG,Republic of Congo,20
+ROU,Romania,48
+RUS,Russia,29
+RWA,Rwanda,54
+LCA,Saint Lucia,60
+VCT,Saint Vincent and The Grenadines,60
+STP,Sao Tome and Principe,46
+SAU,Saudi Arabia,46
+SEN,Senegal,45
+SRB,Serbia,42
+SLE,Sierra Leone,30
+SGP,Singapore,84
+SVK,Slovakia,51
+SVN,Slovenia,61
+SLB,Solomon Islands,42
+SOM,Somalia,10
+ZAF,South Africa,45
+SSD,South Sudan,11
+ESP,Spain,58
+LKA,Sri Lanka,36
+SDN,Sudan,14
+SUR,Suriname,45
+SWE,Sweden,88
+CHE,Switzerland,86
+SYR,Syria,13
+TWN,Taiwan,61
+TJK,Tajikistan,25
+TZA,Tanzania,32
+THA,Thailand,35
+COD,The Democratic Republic of Congo,21
+MKD,The FYR of Macedonia,37
+USA,The United States of America,74
+TLS,Timor-Leste,35
+TGO,Togo,32
+TTO,Trinidad and Tobago,35
+TUN,Tunisia,41
+TUR,Turkey,41
+TKM,Turkmenistan,22
+UGA,Uganda,25
+UKR,Ukraine,29
+ARE,United Arab Emirates,66
+GBR,United Kingdom,81
+URY,Uruguay,71
+UZB,Uzbekistan,21
+VEN,Venezuela,17
+VNM,Vietnam,33
+YEM,Yemen,14
+ZMB,Zambia,38
+ZWE,Zimbabwe,22
