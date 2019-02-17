@@ -1,22 +1,11 @@
+<h1 align="center" style="color:blue">Improving the fight against corruption</h1>
 
-# Final Report
-
-## Group: 
-
-* Student A
-* Student B
-* Student C
-* Student D
-
-<center>
-<img src="https://github.com/EvansDataScience/basicFinal_CompThink/raw/master/groupPic.png" width="800">
-</center>
-
+By: **StudentA**, **StudentB** and **StudentC**
+<br>
+<br>
 
 ______
-
-
-This project tries to uncover the relationships among a set of varisbles; in particular, it shows if the economy and press freedom are good predictors of corruption control worldwide.
+This post see to uncover the relationships among a set of varisbles; in particular, it shows if the economy and press freedom are good predictors of corruption control worldwide.
 
 The data we have used was previously organized in Python, you can see that [here](https://github.com/EvansDataScience/basicFinal_CompThink/blob/master/projectDataPreprocessing.ipynb).
 
