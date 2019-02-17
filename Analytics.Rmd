@@ -1,0 +1,100 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: inline
+---
+# Final Report
+
+## Group: 
+
+* Student A
+* Student B
+* Student C
+* Student D
+
+This project tries to uncover the relationships among a set of varisbles; in particular, it shows if the economy and press freedom are good predictors of corruption control worldwide.
+
+The data we have used was previously organized in Python, you can see that [here](https://github.com/EvansDataScience/basicFinal_CompThink/blob/master/projectDataPreprocessing.ipynb).
+
+Let us call the data:
+
+```{r}
+dataLink="https://github.com/EvansDataScience/basicFinal_CompThink/raw/master/dataProject.csv"
+df=read.csv(dataLink,stringsAsFactors = FALSE)
+```
+
+These are the contents:
+
+```{r}
+str(df)
+```
+
+The variable corruption behaves like this:
+
+```{r}
+hist(df$corruption)
+```
+
+Let me see how each of the proposed predictors  relates to our dependent variable:
+
+```{r}
+plot(df$corruption,df$press)
+```
+
+```{r}
+plot(df$corruption,df$economy)
+```
+
+We know that the predictors have a fairly linear relationship with the dependent variable, then we can test our hypothesis by seeing the effect of each controlling by the other: 
+
+```{r}
+test=lm(as.numeric(corruption)~press+economy,data=df)
+```
+
+The result is shown here:
+```{r}
+summary(test)
+```
+
+As we see above, our model is **significant** with a decent Adjusted R-squared:
+```{r}
+summary(test)$adj.r.squared
+```
+
+Next, we need to verify some requisites so that our results are trustable.
+
+1. The residuals should seems normally distributed: for that we need to see them along the vertical of the qqplot.
+
+```{r}
+# normality of residuals?
+library(car)
+qqPlot(test, main="QQ Plot")
+```
+
+2. The error variance changes with the level of the response, which will happen if the output of the _ncvTest_ function is non-significant.
+
+```{r}
+# homocedastic?
+ncvTest(test)
+```
+
+3. The predictors are no highly correlated:
+
+```{r}
+# collinearity?
+vif(test) > 4 # problem?
+```
+
+4. Detect the change if influential observations are eliminated:
+```{r}
+influencePlot(test, id.method = 'noteworthy', main="Influence Plot", sub="Circle size is proportial to Cook's Distance" )
+```
+
+Those cases (rows) are not considered now:
+
+```{r}
+CountrysOUT=c(122,149)
+summary(lm(as.numeric(corruption)~press+economy,
+           data=df[-CountrysOUT,]))
+```
+
