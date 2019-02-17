@@ -1,7 +1,4 @@
 
-
-<br> 
-<center><img src="https://i.imgur.com/hkb7Bq7.png" width="500"></center>
 # Final Report
 
 ## Group: 
@@ -10,6 +7,14 @@
 * Student B
 * Student C
 * Student D
+
+<center>
+<img src="https://github.com/EvansDataScience/basicFinal_CompThink/raw/master/groupPic.png" width="800">
+</center>
+
+
+______
+
 
 This project tries to uncover the relationships among a set of varisbles; in particular, it shows if the economy and press freedom are good predictors of corruption control worldwide.
 
@@ -97,3 +102,9 @@ summary(lm(as.numeric(corruption)~press+economy,
            data=df[-CountrysOUT,]))
 ```
 
+As you can see, this got better...
+
+
+______
+
+[GO BACK TO REPO](https://github.com/EvansDataScience/basicFinal_CompThink)
